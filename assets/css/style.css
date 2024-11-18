@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden; 
+}
+.header-main{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+}
+.header-main img{
+    margin-left:20px;
+    padding:20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.menu-items{
+       display:flex;
+       flex-direction: row;
+       gap:50px;
+       font-size: 25px;
+       list-style-type:none;
+       font-family:cursive;
+       margin-right:5%;
+ }
+ .menu-items li a{
+    color:whitesmoke;
+ }
+ .menu-items li a:hover{
+    cursor:pointer;
+    color:rgb(158, 153, 153)
+ }
+ .list-menu{
+    position:absolute;
+    left:3%;
+    top:50%;  
+ }
+ .list-items li a{
+    color:yellow;
+    padding-top:15px;
+    font-size:35px;
+    font-family: cursive;
+    list-style-type: none;
+ }
+ .list-items li a:hover{
+    color:whitesmoke;
+    cursor: pointer;
+ }
+ .slider{
+    background-color: black;
+    max-width:100%;
+    overflow: hidden;
+ }
+.slides{
+    display:flex;
+    width:500%;
+}
+.slides input{
+    display:none;
+}
+.slide {
+    width:20%;
+    transition: 2s;
+}
+.nav-manual{
+  position:absolute;
+  display:flex;
+  left:75%;
+  margin-top: -40px;
+  gap:10px;
+  width:1512px;
+}
+.slide img{
+    max-width:fit-content;
+    object-fit: cover;
+    width:1512px;
+}
+.manual-btn{
+    border:2px solid yellow;
+    padding:7px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:2s;
+}
+.manual-btn:hover{
+    background: black;
+}
+#radio1:checked ~ .first{
+    margin-left:0%;
+}
+#radio2:checked ~ .first{
+    margin-left:-20%;
+}
+#radio3:checked ~ .first{
+    margin-left:-40%;
+}
+#radio4:checked ~ .first{
+    margin-left:-60%;
+}
+#radio5:checked ~ .first{
+    margin-left:-80%;
+}
+#radio6:checked ~ .first{
+    margin-left:-100%;
+}
+#radio7:checked ~ .first{
+    margin-left:-120%;
+}
+#radio8:checked ~ .first{
+    margin-left:-140%;
+}
+
+
+.footer-main{
+    background-color:black;
+    color:whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    margin:0; 
+}
+.footer-left p{
+    margin-left:20px;
+    font-size:20px;
+}
+.footer-right p{
+    margin-right:20px;
+    font-size:20px;
+}
