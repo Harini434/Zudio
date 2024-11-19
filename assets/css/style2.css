@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header-main{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+}
+.header-main img{
+    margin-left:20px;
+    padding:20px;
+    cursor: pointer;
+}
+.menu-items{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+    color:whitesmoke;
+    font-size: 25px;
+    list-style-type:none;
+    font-family:cursive;
+    margin-right:5%;
+}
+.menu-items li a:hover{
+ cursor:pointer;
+ color:rgb(158, 153, 153)
+}
+.section{
+    line-height:0%;
+    padding: 0%;
+}
+.heading1 h1{
+   font-size:80px;
+   font-style: normal;
+   margin-left:35%;
+   font-weight: lighter;
+}
+.heading1 h1:hover{
+    color:rgb(202, 194, 194);
+    cursor: pointer;
+}
+.heading2 h1{
+    font-size:80px;
+    margin-left:35%;
+    font-weight: lighter;
+    font-style:normal;
+ }
+ .heading2 h1:hover{
+     color:rgb(202, 194, 194);
+     cursor: pointer;
+ }
+ .heading3 h1{
+    font-size:80px;
+    margin-left:35%;
+    font-weight: lighter;
+    font-style: normal;
+ }
+ .heading3 h1:hover{
+    color:rgb(202, 194, 194);
+     cursor: pointer;
+ }
+ .heading1 p{
+    font-size:35px;
+    color:rgb(128, 123, 123);
+    margin-left:22%;
+   font-style: normal;
+   text-transform: uppercase;
+ }
+ .heading2,.heading3{
+    margin-top:8%;
+ }
+ .heading2 p{
+    font-size:35px;
+    color:rgb(128, 123, 123);
+    margin-left:20%;
+    text-transform: uppercase;
+   font-style: normal;
+   line-height: 15px;
+ }
+ .heading2 span{
+    font-size:35px;
+    color:rgb(128, 123, 123);
+    margin-left:33%;
+    text-transform: uppercase;
+   font-style: normal;
+   line-height: 15px;
+ }
+ .heading3 p{
+    font-size:35px;
+    color:rgb(128, 123, 123);
+    margin-left:15%;
+   font-style: normal;
+   text-transform: uppercase;
+ }
+.footer-main{
+    background-color:black;
+    color:whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    margin-top:2%; 
+}
+.footer-left p{
+    margin-left:20px;
+    font-size:20px;
+}
+.footer-right p{
+    margin-right:20px;
+    font-size:20px;
+}
